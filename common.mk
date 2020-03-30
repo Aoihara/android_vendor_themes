@@ -5,6 +5,11 @@ DEVICE_PACKAGE_OVERLAYS += vendor/themes/overlay/common
 # Boot animation
 include vendor/themes/bootanimation.mk
 
+# Offline charger
+PRODUCT_PACKAGES += \
+charger_res_images \
+product_charger_res_images
+
 # Overlays
 include vendor/themes/overlays.mk
 
